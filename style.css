@@ -1,0 +1,51 @@
+@font-face{
+    font-family:header-font;
+    src:url('fonts/RuslanDisplay-Regular.ttf')
+}
+@font-face{
+    font-family:main-font;
+    src:url('fonts/BalsamiqSans-Regular.ttf')
+}
+
+body{
+    font-family:main-font;
+}
+*{
+    margin:0;
+}
+.header{
+    background-color:black;
+    font-family:header-font;
+    color:white;
+    height:10vh;
+    padding-top:5vh;
+    width:100vw;
+    text-align:center;
+    font-size:50px;
+}
+.main{
+    background-color:rgb(39,39,39);
+    height:85vh;
+}
+.maintext{
+    text-align:center;
+    color:white;
+}
+.catalog{
+    background-color:gray;
+}
+.catalog-item{
+    float:left;
+    padding-top:15vh;
+    height:85vh;
+    width:33%;
+    color:white;
+    padding-bottom:40px;
+}
+.catalog-img{
+    height:30%;
+    margin-bottom:10px;
+}
+.clearance{
+    clear:both;
+}
